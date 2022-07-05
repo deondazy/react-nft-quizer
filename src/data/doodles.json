@@ -1,0 +1,52 @@
+[
+    {
+        "title": "How many NFTs are in the doodles NFT collection?",
+        "options": ["10,000 NFTs", "100,000 NFTs", "200,000 NFTs", "20,000 NFTs"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What date did Doodles NFT launch?",
+        "options": ["OCT 17, 2021", "OCT 17, 2020", "OCT 17, 2019", "OCT 17, 2018"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What was the original mint price of Doodles NFT?",
+        "options": ["0.123 ETH", "0.12345 ETH", "0.1234567 ETH", "0.12345678 ETH"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "Who are the founders of Doodles NFT?",
+        "options": ["Frank, Yuri, and Martin", "Keast, Castro, and Martin", "Dave, Castro, and Martin", "Keast, Joe, and Martin"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "What's the most expensive sale from the Doodles collection?",
+        "options": ["Doodle 6916", "Doodle 6915", "Doodle 6914", "Doodle 6917"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "Who designed art for Doodles NFT?",
+        "options": ["Bald Duck", "Omelette", "Dragon DNA", "Burnt Toast"],
+        "correctOptionIndex": 3
+    },
+    {
+        "title": "What's the official discord of doodles NFT?",
+        "options": ["discord.gg/doodles", "discord.gg/doodlesNft", "discord.gg/doodle", "discord.gg/doodleNft"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What's the official Twitter account of doodles?",
+        "options": ["@doodle", "@doodlesNft", "@doodles", "@doodleNft"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "What's the official website of doodles?",
+        "options": ["Doodles.app", "Doodles.com", "Doodles.org", "Doodles.io"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What's the most recent release from the doodles Ecosystem?",
+        "options": ["Dooplicator", "Doodlement", "Doodles NFT", "Doodle NFT"],
+        "correctOptionIndex": 0
+    }
+]

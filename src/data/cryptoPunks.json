@@ -1,0 +1,52 @@
+[
+    {
+        "title": "What is the parent company of Crypto Punks NFT?",
+        "options": ["Larva Labs NFT", "Crypto Punks Studios", "Larva Labs Studios", "Crypto Punks NFT"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "Who are the founders of Crypto Punks NFT?",
+        "options": ["John Hall and Matt Watkinson", "Matt Hall and John Watkinson", "Greg Hall and Josh Watkinson", "Greg Watkinson and John Hall"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "Crypto punks is hosted on what blockchain?",
+        "options": ["Ethereum", "Bitcoin", "Ripple", "Litecoin"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "Who are the new owners of Larva Labs Studios?",
+        "options": ["Yuga Labs", "Larva Labs Studios", "Hall and Watkinson Studios", "MHJW Labs"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "How many NFTs are in the Crypto punks NFTs Collection?",
+        "options": ["100,000", "1,000", "10,000", "15,000"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "On mint day of Crypto punks, how much did it cost to get a crypto punks?",
+        "options": ["$10 + Gas fee", "FREE + Gas fee", "$1 + Gas fee", "$100 + Gas fee"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "When was crypto punks launched?",
+        "options": ["June 2018", "June 2017", "June 2019", "June 2016"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "How many male and female crypto punks are there?",
+        "options": ["6,039 male and 3,840 female", "5,039 male and 2,840 female", "7,039 male and 5,840 female", "6,039 male and 6,840 female"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "How many assets in Crypto Punks?",
+        "options": ["97 Attributes", "77 Attributes", "67 Attributes", "87 Attributes"],
+        "correctOptionIndex": 3
+    },
+    {
+        "title": "How much did the highest ever selling crypto punk sell for?",
+        "options": ["124,457eth", "224,457eth", "104,457eth", "114,457eth"],
+        "correctOptionIndex": 0
+    }
+]
