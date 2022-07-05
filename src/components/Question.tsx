@@ -45,6 +45,7 @@ function Question({question, totalQuestions, currentQuestion, setAnswer}: {quest
                 </div>
 
                 <div className="options">
+                <i className="icofont-heart"></i>
                     {
                         question.options.map((option: any, index: any) => {
                             return (
