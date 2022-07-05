@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # react-nft-quizer
 Simple trivia questions from popular NFT projects with timer using reactjs
 =======
@@ -49,3 +50,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 >>>>>>> 5a98853 (Initialize project using Create React App)
+=======
+# react-nft-quizer
+Simple trivia questions from popular NFT projects with timer using reactjs
+>>>>>>> 586b5c9 (First commit)
