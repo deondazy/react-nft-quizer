@@ -1,7 +1,7 @@
 import {useState, useEffect, useRef} from 'react';
 import {flushSync} from 'react-dom';
 
-function Question({question, totalQuestions, currentQuestion, setAnswer}: {question: any, totalQuestions: number, currentQuestion: number, setAnswer: any}) {
+function Question({question, totalQuestions, currentQuestion, setAnswer, lifelines}: {question: any, totalQuestions: number, currentQuestion: number, setAnswer: any, lifelines: number}) {
     const [selectedOption, setSelectedOption] = useState(null);
     const timer: any = useRef(null);
     const progressBar: any = useRef(null);
@@ -28,15 +28,39 @@ function Question({question, totalQuestions, currentQuestion, setAnswer}: {quest
         timer.current = setTimeout(gotoNextQuestion, 10*1000); // 10 seconds
     }, [question]);
 
-
     return (
         <div className="question">
             <div className="progress-bar" ref={progressBar}></div>
 
-            <div className="question-count">
-                <b> {currentQuestion} </b>
-                of
-                <b> {totalQuestions} </b>
+            <div className="question-meta">
+
+                <div className="question-count">
+                    <b> {currentQuestion} </b>
+                    of
+                    <b> {totalQuestions} </b>
+                </div>
+
+                <div className="question-lifelines">
+                    {
+                        // show three, two, one or 0 lifelines
+                        lifelines === 3 ? (
+                            <>
+                            <i className="icofont-heart"></i>
+                            <i className="icofont-heart"></i>
+                            <i className="icofont-heart"></i>
+                            </>
+                        ) : lifelines === 2 ? (
+                            <>
+                            <i className="icofont-heart"></i>
+                            <i className="icofont-heart"></i>
+                            </>
+                        ) : lifelines === 1 ? (
+                            <i className="icofont-heart"></i>
+                        ) : (
+                            <></>
+                        )
+                    }
+                </div>
             </div>
 
             <div className="main">
@@ -45,7 +69,6 @@ function Question({question, totalQuestions, currentQuestion, setAnswer}: {quest
                 </div>
 
                 <div className="options">
-                <i className="icofont-heart"></i>
                     {
                         question.options.map((option: any, index: any) => {
                             return (

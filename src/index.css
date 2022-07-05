@@ -171,11 +171,21 @@ button:hover {
     animation: progress 10s linear infinite;
 }
 
+.quiz-screen .question-meta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .quiz-screen .question-count {
     text-align: center;
     margin: 20px 0;
     color: var(--color-gray);
     font-size: .8em;
+}
+
+.quiz-screen .question-lifelines i {
+    color: var(--color-danger);
 }
 
 .quiz-screen .question .main {
