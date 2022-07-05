@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Azuki is a collection of how many NFT characters?",
+        "options": ["10,000", "100,000", "1,000", "5,000"],
+        "correctOptionIndex": 0
+    },
+    {
+
+        "title": "The Azuki brand is designed using what kind of theme?",
+        "options": ["A dark theme", "Anime theme", "Action pack theme", "Cartoon theme"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "As an Azuki NFT holder, you have access to?",
+        "options": ["A lounge", "The Garden", "The concert", "A special group"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "What is the parent company of Azuki?",
+        "options": ["Beanz labs", "Zagabond labs", "Azuki labs", "Churi labs"],
+        "correctOptionIndex": 3
+    },
+    {
+        "title": "Who is founder of Azuki?",
+        "options": ["Makoto", "Zagabond", "Horie", "Kondo"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "The most recent release from the Azuki Brand?",
+        "options": ["Azuki", "Beanz", "Churi", "Makoto"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "Azuki had a huge decline on May 9, 2022 because?",
+        "options": ["The company was sold out", "The founder was bankrupt", "The founder rug pull call out", "The company was closed"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "What is the official discord account of Azuki?",
+        "options": ["discord.gg/azukiNft", "discord.gg/azuki", "discord.gg/nftAzuki", "discord.gg/projectAzuki"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "Azuki is hosted on what blockchain?",
+        "options": ["Ethereum", "Bitcoin", "Stellar", "NEO"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "When did the original Azuki mint and what style was the sales made?",
+        "options": ["May 2022 using Dutch auctions.", "May 2021 using Dutch auctions.", "January 2021 using Dutch auctions.", "January 2022 using Dutch auctions."],
+        "correctOptionIndex": 3
+    }
+]

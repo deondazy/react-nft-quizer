@@ -1,0 +1,52 @@
+[
+    {
+        "title": "How many NFTs are in the Meebits collection?",
+        "options": ["20,000", "10,000", "5,000", "1,000"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "When did Meebits NFT Launch?",
+        "options": ["May 2021", "June 2019", "July 2021", "May 2019"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "On what blockchain is Meetbits built on",
+        "options": ["Bitcoin", "Ethereum", "Stellar", "NEO"],
+        "correctOptionIndex": 1
+    },
+    {
+        "title": "What's the parent company of Meebits?",
+        "options": ["Larva Labs", "Meebits Studios", "Meebits Inc", "Meebits.com"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "How was the original mint sale of Meebits done?",
+        "options": ["P2P auction", "Presale", "Dutch auction", "Presale with a bounty and a P2P auction"],
+        "correctOptionIndex": 2
+    },
+    {
+        "title": "Do owners of Meebits NFTs have commercial rights to their Meebits NFTs?",
+        "options": ["No", "Yes, but only if they are not sold on a secondary market", "Yes, but only if they are not used for commercial purposes", "Yes"],
+        "correctOptionIndex": 3
+    },
+    {
+        "title": "What is the official Twitter handle of MeebitsNFT?",
+        "options": ["@meebitsnfts", "@meebitsnft", "@meebitnft", "@meebitnfts"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What's the most expensive NFT in the Meebits collection?",
+        "options": ["Meebits #10761", "Meebits #10762", "Meebits #10763", "Meebits #10764"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "The initiative to facilitate funding for innovative projects in the Meebits ecosystem is called?",
+        "options": ["Meebits Dao", "Meebits Foundation", "Meebits Incubator", "Meebits Inc"],
+        "correctOptionIndex": 0
+    },
+    {
+        "title": "What are The Meebits Dao two membership types?",
+        "options": ["Voting and voting members", "Voting and non voting members", "Non voting and non voting members", "Non voting and voting members"],
+        "correctOptionIndex": 1
+    }
+]
