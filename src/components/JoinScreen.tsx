@@ -1,50 +1,50 @@
+import CountdownTimer from './CountdownTimer/CountdownTimer';
 interface JoinScreenProps {
     startQuiz: (whichQuiz: string) => void;
-    isAzukiStarted: boolean;
-    isBaycStarted: boolean;
-    isCryptoPunksStarted: boolean;
-    isDoodlesStarted: boolean;
-    isMeebitsStarted: boolean;
-    isSandboxStarted: boolean;
-    isWowStarted: boolean;
+    nftData: any;
 }
 
-const doNada = () => {
-    return;
-};
+function JoinScreen({startQuiz, nftData}: JoinScreenProps) {
 
-function JoinScreen({startQuiz, isAzukiStarted, isBaycStarted, isCryptoPunksStarted, isDoodlesStarted, isMeebitsStarted, isSandboxStarted, isWowStarted}: JoinScreenProps) {
     return (
         <div className="join-screen">
                 <p className="title">Choose an NFT from the list below, answer 10 trivia questions and stand a chance to win an NFT!</p>
 
             <div className="join-cards">
                 <div className="join-card">
-                    <div className={`join-button bg ${isAzukiStarted}`} style={styles.azuki} onClick={isAzukiStarted ? () => doNada() : () => startQuiz('azuki')}></div>
+                    <div className={`join-button bg ${nftData.azuki.isStarted}`} style={styles.azuki} onClick={nftData.azuki.isStarted ? () => {return} : () => startQuiz('azuki')}></div>
+                    {nftData.azuki.isStarted && <CountdownTimer countdownTimestampMs={nftData.azuki.timer} />}
                     <p>Azuki</p>
                 </div>
+
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.bayc} onClick={() => startQuiz('bayc')}></div>
+                    <div className={`join-button bg ${nftData.bayc.isStarted}`} style={styles.bayc} onClick={nftData.bayc.isStarted ? () => {return} : () => startQuiz('bayc')}></div>
+                    {nftData.bayc.isStarted && <CountdownTimer countdownTimestampMs={nftData.bayc.timer} />}
                     <p>Bored Ape Yacht Club</p>
                 </div>
                 <div className="join-card">
-                    <div className={`join-button bg ${isCryptoPunksStarted}`} style={styles.cryptoPunks} onClick={isCryptoPunksStarted ? () => doNada() : () => startQuiz('cryptoPunks')}></div>
+                    <div className={`join-button bg ${nftData.cryptoPunks.isStarted}`} style={styles.cryptoPunks} onClick={nftData.cryptoPunks.isStarted ? () => {return} : () => startQuiz('cryptoPunks')}></div>
+                    {nftData.cryptoPunks.isStarted && <CountdownTimer countdownTimestampMs={nftData.cryptoPunks.timer} />}
                     <p>Crypto Punks</p>
                 </div>
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.doodles} onClick={() => startQuiz('doodles')}></div>
+                    <div className={`join-button bg ${nftData.doodles.isStarted}`} style={styles.doodles} onClick={nftData.doodles.isStarted ? () => {return} : () => startQuiz('doodles')}></div>
+                    {nftData.doodles.isStarted && <CountdownTimer countdownTimestampMs={nftData.doodles.timer} />}
                     <p>Doodles</p>
                 </div>
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.meebits} onClick={() => startQuiz('meebits')}></div>
+                    <div className={`join-button bg ${nftData.meebits.isStarted}`} style={styles.meebits} onClick={nftData.meebits.isStarted ? () => {return} : () => startQuiz('meebits')}></div>
+                    {nftData.meebits.isStarted && <CountdownTimer countdownTimestampMs={nftData.meebits.timer} />}
                     <p>Meebits</p>
                 </div>
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.sandbox} onClick={() => startQuiz('sandbox')}></div>
+                    <div className={`join-button bg ${nftData.sandbox.isStarted}`} style={styles.sandbox} onClick={nftData.sandbox.isStarted ? () => {return} : () => startQuiz('sandbox')}></div>
+                    {nftData.sandbox.isStarted && <CountdownTimer countdownTimestampMs={nftData.sandbox.timer} />}
                     <p>The Sandobx</p>
                 </div>
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.wow} onClick={() => startQuiz('wow')}></div>
+                    <div className={`join-button bg ${nftData.wow.isStarted}`} style={styles.wow} onClick={nftData.wow.isStarted ? () => {return} : () => startQuiz('wow')}></div>
+                    {nftData.wow.isStarted && <CountdownTimer countdownTimestampMs={nftData.wow.timer} />}
                     <p>World of Women</p>
                 </div>
             </div>
