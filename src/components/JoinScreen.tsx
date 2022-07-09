@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CountdownTimer from './CountdownTimer/CountdownTimer';
 interface JoinScreenProps {
     startQuiz: (whichQuiz: string) => void;
@@ -8,7 +9,15 @@ function JoinScreen({startQuiz, nftData}: JoinScreenProps) {
 
     return (
         <div className="join-screen">
-                <p className="title">Choose an NFT from the list below, answer 10 trivia questions and stand a chance to win an NFT!</p>
+                <p className="title">
+                It's a bear market but NFT is not dead. We are an elite group of young NFT whales looking to improve NFT awareness around the world through quality Education.<br /><br />
+                
+                To advertise your collection, write to <a href="mailto:apply@nftquizer.com">apply@nftquizer.com</a> <br/><br />
+                    
+                Choose an NFT from the list below, answer 10 trivia questions and stand a chance to win an NFT!
+                <br/><br/>
+                <Link to="/tutorial">Tutorial - Learn how NFTQuizer works</Link>
+                </p>
 
             <div className="join-cards">
                 <div className="join-card">

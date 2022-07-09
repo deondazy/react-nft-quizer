@@ -1,4 +1,5 @@
 import {useState, useEffect, useReducer} from 'react';
+import {Routes, Route, Link} from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import QuizShuffleScreen from './components/QuizShuffleScreen';

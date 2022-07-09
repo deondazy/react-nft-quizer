@@ -89,10 +89,11 @@ button:hover,
     width: 300px;
 }
 
-.quiz-container {
+.quiz-container,
+.tutorial-container {
     position: relative;
     z-index: 9;
-    margin: 50px auto 20px;
+    margin: 20px auto;
 }
 
 .join-screen {
@@ -101,7 +102,7 @@ button:hover,
     flex-direction: column;
     justify-content: start;
     height: 350px;
-    gap: 100px;
+    gap: 50px;
 }
 
 .join-screen .title {
@@ -111,6 +112,13 @@ button:hover,
     text-align: center;
     line-height: 1.4;
     letter-spacing: .015em;
+    margin: 0 20px;
+}
+
+.join-screen .title a {
+    color: var(--color-gray);
+    border-bottom: 2px solid var(--color-gray);
+    text-decoration: none;
 }
 
 .join-cards {
@@ -194,7 +202,8 @@ button:hover,
     color: var(--color-gray);
 }
 
-.quiz-wrap {
+.quiz-wrap,
+.tutorial-wrap {
     background: var(--color-white);
     border-radius: 5px;
     box-shadow: 0 2px 5px 2px var(--color-shadow);
@@ -292,13 +301,51 @@ button:hover,
     font-size: 1.1em;
 }
 
+.tutorial-wrap {
+    padding: 40px 20px;
+}
+
+.tutorial-wrap .title {
+    font-size: 1.7em;
+    color: var(--color-dark);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.tutorial-wrap p {
+    font-size: 1.25em;
+    color: var(--color-gray);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.tutorial-container .go-back {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tutorial-container .go-back a {
+    color: var(--color-gray);
+    border-bottom: 2px solid var(--color-gray);
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+}
+
+.tutorial-container .go-back a span {
+    font-size: 13px;
+    position: absolute;
+    left: -18px;
+    top: 2px;
+}
+
 @media (max-width: 600px) {
     .join-screen {
         display: block;
     }
 
     .join-screen .title {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .join-cards {
