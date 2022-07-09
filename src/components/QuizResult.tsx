@@ -1,7 +1,3 @@
-function claimReward() {
-    return alert("Reward");
-}
-
 function QuizResult({result, retry}: {result: any, retry: any}) {
     return (
         <div className="result-screen">
@@ -13,7 +9,7 @@ function QuizResult({result, retry}: {result: any, retry: any}) {
             ) : (
                 <>
                 <p><strong>Congratulations! You have passed the quiz!</strong></p>
-                <button onClick={claimReward}>Claim reward</button>
+                <a className="button" href="../rewards/index.html">Go to reward page!</a>
                 </>
             )}
         </div>

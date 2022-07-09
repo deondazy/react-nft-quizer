@@ -1,15 +1,26 @@
 interface JoinScreenProps {
     startQuiz: (whichQuiz: string) => void;
+    isAzukiStarted: boolean;
+    isBaycStarted: boolean;
+    isCryptoPunksStarted: boolean;
+    isDoodlesStarted: boolean;
+    isMeebitsStarted: boolean;
+    isSandboxStarted: boolean;
+    isWowStarted: boolean;
 }
 
-function JoinScreen({startQuiz}: JoinScreenProps) {
+const doNada = () => {
+    return;
+};
+
+function JoinScreen({startQuiz, isAzukiStarted, isBaycStarted, isCryptoPunksStarted, isDoodlesStarted, isMeebitsStarted, isSandboxStarted, isWowStarted}: JoinScreenProps) {
     return (
         <div className="join-screen">
                 <p className="title">Choose an NFT from the list below, answer 10 trivia questions and stand a chance to win an NFT!</p>
 
             <div className="join-cards">
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.azuki} onClick={() => startQuiz('azuki')}></div>
+                    <div className={`join-button bg ${isAzukiStarted}`} style={styles.azuki} onClick={isAzukiStarted ? () => doNada() : () => startQuiz('azuki')}></div>
                     <p>Azuki</p>
                 </div>
                 <div className="join-card">
@@ -17,7 +28,7 @@ function JoinScreen({startQuiz}: JoinScreenProps) {
                     <p>Bored Ape Yacht Club</p>
                 </div>
                 <div className="join-card">
-                    <div className="join-button bg" style={styles.cryptoPunks} onClick={() => startQuiz('cryptoPunks')}></div>
+                    <div className={`join-button bg ${isCryptoPunksStarted}`} style={styles.cryptoPunks} onClick={isCryptoPunksStarted ? () => doNada() : () => startQuiz('cryptoPunks')}></div>
                     <p>Crypto Punks</p>
                 </div>
                 <div className="join-card">

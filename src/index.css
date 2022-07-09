@@ -30,7 +30,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-button {
+button, .button {
     background: var(--color-primary);
     border: none;
     border-radius: 5px;
@@ -41,9 +41,11 @@ button {
     outline: none;
     padding: 10px 40px;
     transition: all .2s ease-in-out;
+    text-decoration: none;
 }
 
-button:hover {
+button:hover,
+.button:hover {
     background: var(--color-primary-light);
     color: var(--color-primary);
 }
@@ -148,6 +150,32 @@ button:hover {
     border-radius: 20%;
     margin-bottom: 20px;
     box-shadow: 0 2px 15px 2px var(--color-shadow);
+}
+
+.join-button.true {
+    cursor: default;
+    filter: grayscale(100%);
+}
+
+.join-button.true:hover {
+    border: none;
+}
+
+.join-button.true::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-primary);
+    border-radius: 20%;
+    opacity: 0.7;
+    transition: all .2s ease-in-out;
+}
+
+.join-button.true ~ p {
+    text-decoration: line-through;
 }
 
 .quiz-wrap {
