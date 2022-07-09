@@ -5,7 +5,7 @@
     "node": "16.x"
   },
   "private": true,
-  "homepage": ".",
+  "homepage": "./quiz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
