@@ -123,6 +123,7 @@ button:hover,
 }
 
 .join-card {
+    position: relative;
     width: 200px;
     height: 260px;
 }
@@ -176,6 +177,21 @@ button:hover,
 
 .join-button.true ~ p {
     text-decoration: line-through;
+}
+
+.countdown-timer {
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    height: 35px;
+    text-align: center;
+    font-weight: 700;
+    background: rgba(0, 0, 0, .6);
+    right: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 1.1em;
+    color: var(--color-gray);
 }
 
 .quiz-wrap {
