@@ -100,7 +100,7 @@ button:hover,
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     height: 350px;
     gap: 50px;
 }
