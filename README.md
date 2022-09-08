@@ -1,2 +1,2 @@
 # react-nft-quizer
-Simple trivia questions from popular NFT projects with timer using reactjs
+Simple Trivia questions from popular NFT projects with a timer using React.
